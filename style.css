@@ -10,13 +10,15 @@ p{
 }
 h1 {
     color: rgb(126, 122, 122);
-    font-size: 50px;
-    
+    font-size: 50px; 
+}
+h2 {
+    font-size: 30px;
 }
 .black-color {
-    color: rgb(0, 0, 0);
+    color: rgb(43, 0, 112);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -46,4 +48,34 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 150px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 20px 20px 80px rgb(207, 0, 214);
+    border-radius: 10px;
+    
+}
+#full-stack-exp{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 255, 98), rgb(255, 196, 0));
+    border-image-slice: 1;
+    
+}
+#web-dev-exp{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 4, 255), rgb(0, 225, 255));
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
 }
